@@ -80,7 +80,7 @@
 
 
 <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
-<meta name="keywords" content="google adwords优化,谷歌推广教程，外贸推广优化">
+<meta name="keywords" content="google adwords优化,谷歌推广教程,外贸推广优化">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hello World">
 <meta property="og:url" content="http://yoursite.com/uncategorized/cjhtvs5jh0001jcst109z52gu">
@@ -245,9 +245,9 @@
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/uncategorized/cjhtvs5jh0001jcst109z52gu">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Liangyong Zhang">
+      <meta itemprop="name" content="SearchPanda">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/panda.png">
+      <meta itemprop="image" content="/images/北极熊.png">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -438,11 +438,11 @@
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <img class="site-author-image" itemprop="image"
-                src="/images/panda.png"
-                alt="Liangyong Zhang" />
+                src="/images/北极熊.png"
+                alt="SearchPanda" />
             
-              <p class="site-author-name" itemprop="name">Liangyong Zhang</p>
-              <p class="site-description motion-element" itemprop="description">不定期更新海外seo，sem的新闻，教程，和优化技巧等。也会分享在百度，谷歌，Facebook等推广实操中遇到的问题和经验总结。</p>
+              <p class="site-author-name" itemprop="name">SearchPanda</p>
+              <p class="site-description motion-element" itemprop="description">News, Guides & How to</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -513,7 +513,7 @@
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Liangyong Zhang</span>
+  <span class="author" itemprop="copyrightHolder">SearchPanda</span>
 
   
 </div>
