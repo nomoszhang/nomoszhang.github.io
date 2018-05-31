@@ -247,7 +247,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Liangyong Zhang">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/panda.png">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -418,6 +418,10 @@
       <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/panda.png"
+                alt="Liangyong Zhang" />
             
               <p class="site-author-name" itemprop="name">Liangyong Zhang</p>
               <p class="site-description motion-element" itemprop="description">不定期更新海外seo，sem的新闻，教程，和优化技巧等。也会分享在百度，谷歌，Facebook等推广实操中遇到的问题和经验总结。</p>
