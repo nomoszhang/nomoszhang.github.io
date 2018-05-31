@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="News, Guides &amp; How to">
+<meta name="description" content="不定时更新">
 <meta name="keywords" content="google adwords优化,谷歌推广教程,外贸推广优化">
 <meta property="og:type" content="article">
 <meta property="og:title" content="test_my_site">
 <meta property="og:url" content="http://yoursite.com/uncategorized/cjhtvs5jc0000jcsthdtviuy0">
 <meta property="og:site_name" content="SearchPanda">
-<meta property="og:description" content="News, Guides &amp; How to">
+<meta property="og:description" content="不定时更新">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:updated_time" content="2018-05-21T07:36:59.531Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="test_my_site">
-<meta name="twitter:description" content="News, Guides &amp; How to">
+<meta name="twitter:description" content="不定时更新">
 
 
 
@@ -170,7 +170,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <p class="site-subtitle">News, Guides & How to</p>
       
   </div>
 
@@ -424,7 +424,7 @@
                 alt="SearchPanda" />
             
               <p class="site-author-name" itemprop="name">SearchPanda</p>
-              <p class="site-description motion-element" itemprop="description">News, Guides & How to</p>
+              <p class="site-description motion-element" itemprop="description">不定时更新</p>
           </div>
 
           <nav class="site-state motion-element">

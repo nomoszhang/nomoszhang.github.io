@@ -170,7 +170,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <p class="site-subtitle">News, Guides & How to</p>
       
   </div>
 
@@ -442,7 +442,7 @@
                 alt="SearchPanda" />
             
               <p class="site-author-name" itemprop="name">SearchPanda</p>
-              <p class="site-description motion-element" itemprop="description">News, Guides & How to</p>
+              <p class="site-description motion-element" itemprop="description">不定时更新</p>
           </div>
 
           <nav class="site-state motion-element">
