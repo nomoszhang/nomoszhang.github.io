@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-24T07:18:26.969Z</updated>
+  <updated>2018-12-24T07:28:21.353Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,16 +21,15 @@
     <link href="http://yoursite.com/posts/55009/"/>
     <id>http://yoursite.com/posts/55009/</id>
     <published>2018-12-24T06:44:20.000Z</published>
-    <updated>2018-12-24T07:18:26.969Z</updated>
+    <updated>2018-12-24T07:28:21.353Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>今天早晨我出门很早<br>因为我醒得更早<br>却没有我想做的事情<br><br>我不知道走哪条路<br>而风朝一个方向猛烈地吹<br>风吹着我的后背，我随风行走<br><br>我的生活总是这样，我愿意一直这样——<br>风把我推向哪里，我就一直走到哪里<br>而不让自己思考<br><br>——佩索阿</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<blockquote class="blockquote-center"><br>&gt; 今天早晨我出门很早<br>因为我醒得更早<br>却没有我想做的事情<br><br>我不知道走哪条路<br>而风朝一个方向猛烈地吹<br>风吹着我的后背，我随风行走<br><br>我的生活总是这样，我愿意一直这样——<br>风把我推向哪里，我就一直走到哪里<br>而不让自己思考<br><br>——佩索阿<br><br></blockquote>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;blockquote&gt;
-&lt;p&gt;今天早晨我出门很早&lt;br&gt;因为我醒得更早&lt;br&gt;却没有我想做的事情&lt;br&gt;&lt;br&gt;我不知道走哪条路&lt;br&gt;而风朝一个方向猛烈地吹&lt;br&gt;风吹着我的后背，我随风行走&lt;br&gt;&lt;br&gt;我的生活总是这样，我愿意一直这样——&lt;br&gt;风把我推向哪里，我就一直走
+        &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;br&gt;&amp;gt; 今天早晨我出门很早&lt;br&gt;因为我醒得更早&lt;br&gt;却没有我想做的事情&lt;br&gt;&lt;br&gt;我不知道走哪条路&lt;br&gt;而风朝一个方向猛烈地吹&lt;br&gt;风吹着我的后背，我随风行走&lt;br&gt;&lt;br&gt;我的生活
       
     
     </summary>
