@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-24T09:53:33.339Z</updated>
+  <updated>2018-12-24T09:54:03.031Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/posts/6940/"/>
     <id>http://yoursite.com/posts/6940/</id>
     <published>2018-12-24T09:33:39.000Z</published>
-    <updated>2018-12-24T09:53:33.339Z</updated>
+    <updated>2018-12-24T09:54:03.031Z</updated>
     
     <content type="html"><![CDATA[<p>最近有朋友问我WordPress的表单插件 Contact Form 7 怎么实现提交表单后跳转到指定页面。</p><p>经过查找资料我发现之前使用在插件中附加设置中添加 <code>on_send_ok</code> 的方法已经停用了。</p><blockquote><p>Note: The method using on_sent_ok hook is no longer recommended. This function is scheduled to be abolished by the end of 2017.</p></blockquote><p>现在 Contact Form 7 采用 <a href="https://contactform7.com/dom-events/" target="_blank" rel="noopener">custom DOM event</a> 的方式运行 JavaScript。表单提交后跳转到指定url的脚本如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">document.addEventListener( &apos;wpcf7mailsent&apos;, function( event ) &#123;</span><br><span class="line">    location = &apos;http://example.com/&apos;;</span><br><span class="line">&#125;, false );</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure><p>将这段代码添加到 WordPress 主题的 template 文件中。注意，将<code>http://example.com/</code>替换为你想指定跳转的url。</p><p>英语好的可以直接点击下方链接查看官方说明。<br><a href="https://contactform7.com/redirecting-to-another-url-after-submissions/" target="_blank" rel="noopener">Redirecting to Another URL After Submissions</a></p>]]></content>
     
