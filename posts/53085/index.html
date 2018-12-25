@@ -2,14 +2,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
   
 
 
-<html class="theme-next muse use-motion" lang="zh-Hans">
+<html class="theme-next muse use-motion" lang="zh-CN">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
 <meta name="theme-color" content="#222">
 
 
@@ -20,8 +29,6 @@
 
 
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
 
 
 
@@ -38,9 +45,6 @@
 
 
 
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
 
 
@@ -50,66 +54,40 @@
 
 <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=6.6.0" rel="stylesheet" type="text/css" />
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.6.0">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32-black.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32-black.png?v=6.6.0">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16-black.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16-black.png?v=6.6.0">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
-
-
-
-
-
-  <meta name="keywords" content="WordPress,Yoast," />
-
-
-
-
-
-  <link rel="alternate" href="/atom.xml" title="MOYU" type="application/atom+xml" />
+  <link rel="mask-icon" href="/images/logo.svg?v=6.6.0" color="#222">
 
 
 
 
 
 
-<meta name="description" content="Yoast SEO近期更新了一个版本，修复了7.0版本中会导致一些网站排名下降的一个重大BUG。Yoast的创始人Joost de Valk向收到该BUG影响，导致网站失去排名的站长们发表了个人道歉声明。 Yoast SEO 7.0 Bug上线于2018年3月6号Yoast SEO插件出现BUG的7.0版本上线于2018年3月6号。使用Yoast SEO插件，并且在3月份升级到了7.0 BUG版本">
-<meta name="keywords" content="WordPress,Yoast">
-<meta property="og:type" content="article">
-<meta property="og:title" content="WordPress著名SEO插件Yoast SEO出现重大BUG，将导致网站排名下降">
-<meta property="og:url" content="http://yoursite.com/posts/53085/index.html">
-<meta property="og:site_name" content="MOYU">
-<meta property="og:description" content="Yoast SEO近期更新了一个版本，修复了7.0版本中会导致一些网站排名下降的一个重大BUG。Yoast的创始人Joost de Valk向收到该BUG影响，导致网站失去排名的站长们发表了个人道歉声明。 Yoast SEO 7.0 Bug上线于2018年3月6号Yoast SEO插件出现BUG的7.0版本上线于2018年3月6号。使用Yoast SEO插件，并且在3月份升级到了7.0 BUG版本">
-<meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-06-05T07:24:55.183Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="WordPress著名SEO插件Yoast SEO出现重大BUG，将导致网站排名下降">
-<meta name="twitter:description" content="Yoast SEO近期更新了一个版本，修复了7.0版本中会导致一些网站排名下降的一个重大BUG。Yoast的创始人Joost de Valk向收到该BUG影响，导致网站失去排名的站长们发表了个人道歉声明。 Yoast SEO 7.0 Bug上线于2018年3月6号Yoast SEO插件出现BUG的7.0版本上线于2018年3月6号。使用Yoast SEO插件，并且在3月份升级到了7.0 BUG版本">
 
 
 
-<script type="text/javascript" id="hexo.configurations">
+<script id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
     scheme: 'Muse',
-    version: '5.1.4',
+    version: '6.6.0',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: true,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    duoshuo: {
-      userId: '0',
-      author: '博主'
-    },
     algolia: {
       applicationID: '',
       apiKey: '',
@@ -121,12 +99,40 @@
 </script>
 
 
+  
+
+
+
+
+  <meta name="description" content="Yoast SEO近期更新了一个版本，修复了7.0版本中会导致一些网站排名下降的一个重大BUG。Yoast的创始人Joost de Valk向收到该BUG影响，导致网站失去排名的站长们发表了个人道歉声明。 Yoast SEO 7.0 Bug上线于2018年3月6号Yoast SEO插件出现BUG的7.0版本上线于2018年3月6号。使用Yoast SEO插件，并且在3月份升级到了7.0 BUG版本">
+<meta name="keywords" content="WordPress,Yoast">
+<meta property="og:type" content="article">
+<meta property="og:title" content="WordPress著名SEO插件Yoast SEO出现重大BUG，将导致网站排名下降">
+<meta property="og:url" content="http://yoursite.com/posts/53085/index.html">
+<meta property="og:site_name" content="MOYU">
+<meta property="og:description" content="Yoast SEO近期更新了一个版本，修复了7.0版本中会导致一些网站排名下降的一个重大BUG。Yoast的创始人Joost de Valk向收到该BUG影响，导致网站失去排名的站长们发表了个人道歉声明。 Yoast SEO 7.0 Bug上线于2018年3月6号Yoast SEO插件出现BUG的7.0版本上线于2018年3月6号。使用Yoast SEO插件，并且在3月份升级到了7.0 BUG版本">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-06-05T07:24:55.183Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="WordPress著名SEO插件Yoast SEO出现重大BUG，将导致网站排名下降">
+<meta name="twitter:description" content="Yoast SEO近期更新了一个版本，修复了7.0版本中会导致一些网站排名下降的一个重大BUG。Yoast的创始人Joost de Valk向收到该BUG影响，导致网站失去排名的站长们发表了个人道歉声明。 Yoast SEO 7.0 Bug上线于2018年3月6号Yoast SEO插件出现BUG的7.0版本上线于2018年3月6号。使用Yoast SEO插件，并且在3月份升级到了7.0 BUG版本">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="MOYU" type="application/atom+xml" />
+
+
+
 
   <link rel="canonical" href="http://yoursite.com/posts/53085/"/>
 
 
 
-
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
 
   <title>WordPress著名SEO插件Yoast SEO出现重大BUG，将导致网站排名下降 | MOYU</title>
   
@@ -134,22 +140,42 @@
 
 
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-73017572-2', 'auto');
-  ga('send', 'pageview');
-</script>
 
 
 
 
+
+
+
+
+  <noscript>
+  <style>
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion .logo-line-before i { left: initial; }
+    .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
 
   
   
@@ -161,23 +187,22 @@
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
+  <div class="site-meta">
     
 
     <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
+      <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">MOYU</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
-      
-        <p class="site-subtitle"></p>
-      
+    
+    
   </div>
 
   <div class="site-nav-toggle">
-    <button>
+    <button aria-label="切换导航栏">
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -185,55 +210,89 @@
   </div>
 </div>
 
-<nav class="site-nav">
-  
 
+
+<nav class="site-nav">
   
     <ul id="menu" class="menu">
       
         
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            首页
-          </a>
-        </li>
-      
         
-        <li class="menu-item menu-item-categories">
-          <a href="/categories/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            标签
-          </a>
-        </li>
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
       
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+
+  </li>
         
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            归档
-          </a>
-        </li>
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
       
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+
+  </li>
 
       
+      
     </ul>
+  
+
+  
+    
+
   
 
   
@@ -241,12 +300,20 @@
 
 
 
- </div>
+  
+
+
+
+</div>
     </header>
+
+    
+
 
     <main id="main" class="main">
       <div class="main-inner">
         <div class="content-wrap">
+          
           <div id="content" class="content">
             
 
@@ -259,6 +326,8 @@
   
   
 
+  
+
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
@@ -268,7 +337,7 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="moyu">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="不定时更新">
       <meta itemprop="image" content="/images/moyu.jpg">
     </span>
 
@@ -281,11 +350,20 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">WordPress著名SEO插件Yoast SEO出现重大BUG，将导致网站排名下降</h1>
+          <h1 class="post-title" itemprop="name headline">WordPress著名SEO插件Yoast SEO出现重大BUG，将导致网站排名下降
+
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
+
+            
+            
+            
+
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
@@ -293,13 +371,18 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-06-05T09:39:45+08:00">
-                2018-06-05
-              </time>
+
+              
+                
+              
+
+              <time title="创建时间：2018-06-05 09:39:45 / 修改时间：15:24:55" itemprop="dateCreated datePublished" datetime="2018-06-05T09:39:45+08:00">2018-06-05</time>
             
 
             
+              
 
+              
             
           </span>
 
@@ -315,11 +398,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/SEO/" itemprop="url" rel="index">
-                    <span itemprop="name">SEO</span>
-                  </a>
-                </span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/SEO/" itemprop="url" rel="index"><span itemprop="name">SEO</span></a></span>
 
                 
                 
@@ -335,6 +414,7 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/posts/53085/#comments" itemprop="discussionUrl">
+                
                   <span class="post-comments-count disqus-comment-count"
                         data-disqus-identifier="posts/53085/" itemprop="commentCount"></span>
                 </a>
@@ -348,18 +428,17 @@
           
 
           
-            <div class="post-wordcount">
+            <div class="post-symbolscount">
               
-                
+
+              
                 <span class="post-meta-item-icon">
                   <i class="fa fa-file-word-o"></i>
                 </span>
                 
-                  <span class="post-meta-item-text">字数统计&#58;</span>
+                  <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="字数统计">
-                   字
-                </span>
+                <span title="本文字数">1.8k</span>
               
 
               
@@ -373,9 +452,7 @@
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">
-                   分钟
-                </span>
+                <span title="阅读时长">3 分钟</span>
               
             </div>
           
@@ -425,12 +502,18 @@
 
       
     </div>
+
+    
+
     
     
     
 
     
 
+    
+      
+    
     
       <div>
         <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
@@ -506,26 +589,16 @@
   </article>
 
 
-
-    <div class="post-spread">
-      
-    </div>
   </div>
 
 
           </div>
           
 
-
-          
-
   
     <div class="comments" id="comments">
       <div id="disqus_thread">
-        <noscript>
-          Please enable JavaScript to view the
-          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-        </noscript>
+        <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
       </div>
     </div>
 
@@ -562,7 +635,7 @@
         </ul>
       
 
-      <section class="site-overview-wrap sidebar-panel">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -574,42 +647,64 @@
               <p class="site-description motion-element" itemprop="description">不定时更新</p>
           </div>
 
-          <nav class="site-state motion-element">
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
 
-            
-              <div class="site-state-item site-state-posts">
               
-                <a href="/archives/">
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
               
-                  <span class="site-state-item-count">6</span>
-                  <span class="site-state-item-name">日志</span>
-                </a>
-              </div>
-            
 
-            
               
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
               
-              <div class="site-state-item site-state-categories">
-                <a href="/categories/index.html">
-                  <span class="site-state-item-count">3</span>
-                  <span class="site-state-item-name">分类</span>
-                </a>
-              </div>
-            
-
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">6</span>
-                  <span class="site-state-item-name">标签</span>
-                </a>
-              </div>
-            
-
-          </nav>
+            </nav>
+          
 
           
             <div class="feed-link motion-element">
@@ -623,23 +718,26 @@
           
 
           
-          
 
           
           
 
+          
+            
+          
           
 
         </div>
-      </section>
+      </div>
 
       
       <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
           <div class="post-toc">
 
             
-              
+            
+            
             
 
             
@@ -647,7 +745,7 @@
             
 
           </div>
-        </section>
+        </div>
       <!--/noindex-->
       
 
@@ -664,16 +762,32 @@
     <footer id="footer" class="footer">
       <div class="footer-inner">
         <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
-  <span class="with-love">
-    <i class="fa fa-user"></i>
+  <span class="with-love" id="animate">
+    <i class="fa fa-fas fa-heartbeat"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">moyu</span>
 
   
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+    <span title="站点总字数">5k</span>
+  
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    
+    <span title="站点阅读时长">8 分钟</span>
+  
 </div>
 
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.7.1</div>
 
 
 
@@ -681,12 +795,13 @@
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v6.6.0</div>
 
 
 
 
         
+
 
 
 
@@ -707,11 +822,14 @@
 
     
 
+    
+
+    
   </div>
 
   
 
-<script type="text/javascript">
+<script>
   if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
     window.Promise = null;
   }
@@ -725,7 +843,6 @@
 
 
 
-  
 
 
 
@@ -738,43 +855,33 @@
 
 
 
+
+
+
+
+
   
   
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+    <script src="/lib/jquery/index.js?v=2.1.3"></script>
   
 
   
   
-    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+    <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
   
 
   
   
-    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
   
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+  <script src="/js/src/utils.js?v=6.6.0"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+  <script src="/js/src/motion.js?v=6.6.0"></script>
 
 
 
@@ -782,55 +889,42 @@
   
 
   
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+  <script src="/js/src/scrollspy.js?v=6.6.0"></script>
+<script src="/js/src/post-details.js?v=6.6.0"></script>
 
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+  <script src="/js/src/bootstrap.js?v=6.6.0"></script>
 
 
 
   
 
-
+  
+    <script id="dsq-count-scr" src="https://nomoszhang.disqus.com/count.js" async></script>
   
 
-    
-      <script id="dsq-count-scr" src="https://nomoszhang.disqus.com/count.js" async></script>
-    
-
-    
-      <script type="text/javascript">
-        var disqus_config = function () {
-          this.page.url = 'http://yoursite.com/posts/53085/';
-          this.page.identifier = 'posts/53085/';
-          this.page.title = 'WordPress著名SEO插件Yoast SEO出现重大BUG，将导致网站排名下降';
+  
+    <script>
+      var disqus_config = function () {
+        this.page.url = "http://yoursite.com/posts/53085/";
+        this.page.identifier = "posts/53085/";
+        this.page.title = 'WordPress著名SEO插件Yoast SEO出现重大BUG，将导致网站排名下降';
         };
+      function loadComments () {
         var d = document, s = d.createElement('script');
         s.src = 'https://nomoszhang.disqus.com/embed.js';
         s.setAttribute('data-timestamp', '' + +new Date());
         (d.head || d.body).appendChild(s);
-      </script>
-    
-
+      }
+      
+        loadComments();
+      
+    </script>
   
-
-
-
-
-	
-
-
-
-
-
-  
-
-
 
 
 
@@ -842,12 +936,14 @@
 
 
   <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
   
-  <script type="text/javascript">
+  
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+  <script>
     var GUEST = ['nick','mail','link'];
     var guest = 'nick,mail,link';
-    guest = guest.split(',').filter(item=>{
+    guest = guest.split(',').filter(function (item) {
       return GUEST.indexOf(item)>-1;
     });
     new Valine({
@@ -858,26 +954,38 @@
         appKey: 'NMMbzwi7i2aqvnSgiO5G9twr',
         placeholder: 'Just go go',
         avatar:'mm',
-        guest_info:guest,
+        meta:guest,
         pageSize:'10' || 10,
+        visitor: false
     });
   </script>
 
 
 
-  
-
-
-
-
 
   
 
-  
+
+
+
 
   
 
   
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
   
 
   
