@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Contact Form 7 最新版本如何实现提交表单后跳转到指定页面]]></title>
+    <url>%2Fposts%2F6940%2F</url>
+    <content type="text"><![CDATA[最近有朋友问我WordPress的表单插件 Contact Form 7 怎么实现提交表单后跳转到指定页面。 经过查找资料我发现之前使用在插件中附加设置中添加 on_send_ok 的方法已经停用了。 Note: The method using on_sent_ok hook is no longer recommended. This function is scheduled to be abolished by the end of 2017. 现在 Contact Form 7 采用 custom DOM event 的方式运行 JavaScript。表单提交后跳转到指定url的脚本如下： 12345&lt;script&gt;document.addEventListener( &apos;wpcf7mailsent&apos;, function( event ) &#123; location = &apos;http://example.com/&apos;;&#125;, false );&lt;/script&gt; 将这段代码添加到 WordPress 主题的template文件中。注意，将http://example.com/替换为你想指定跳转的url。 英语好的可以直接点击下方链接查看官方说明。Redirecting to Another URL After Submissions]]></content>
+      <tags>
+        <tag>Contact Form 7</tag>
+        <tag>WordPress</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[写在前面]]></title>
+    <url>%2Fposts%2F55009%2F</url>
+    <content type="text"><![CDATA[今天早晨我出门很早因为我醒得更早却没有我想做的事情我不知道走哪条路而风朝一个方向猛烈地吹风吹着我的后背，我随风行走我的生活总是这样，我愿意一直这样——风把我推向哪里，我就一直走到哪里而不让自己思考——佩索阿]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[6月29日Facebook公开了所有公共主页的广告投放信息]]></title>
+    <url>%2Fposts%2F49158%2F</url>
+    <content type="text"><![CDATA[继Twitter宣布开放所有广告信息后，Facebook紧随其后也在6月29日发布了重磅声明，Facebook将公开所有公司主页投放的广告信息。 Facebook在声明中说到： 今天，我们正在采取重要措施，为Facebook上的广告和页面带来更多透明度。 向人们提供有关任何组织和其当前投放的广告的更多信息将意味着增加对广告商的责任，有助于防止Facebook上的滥用行为。 Facebook公开了公共主页的两个信息。 Facebook投放的广告将可让您看到任何页面在Facebook，Instagram和Messenger以及Facebook合作伙伴网络上运行的所有广告。 该列表将向您展示所有广告，包括那些不针对你的广告，这些广告可以帮助用户更好地了解他们特别是如何成为政治类广告的目标。还可以按区域过滤广告列表，并直接从该工具报告可疑广告信息。 更多页面信息第二个是更多页面信息，它使用户能够查看该页面最近的名称更改，创建页面的日期以及更多信息。 这项信息将在所有主页上可用，即使那些不投放广告的。 这将为社交媒体营销商提供新的竞争对手分析工具——现在，竞争对手运营的所有Facebook广告都可以直接看到，并更好地了解他们希望如何吸引他们的Facebook观众。 你如何看待Facebook这一项改动呢？]]></content>
+      <categories>
+        <category>SEM</category>
+      </categories>
+      <tags>
+        <tag>Facebook Ads</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[WordPress著名SEO插件Yoast SEO出现重大BUG，将导致网站排名下降]]></title>
+    <url>%2Fposts%2F53085%2F</url>
+    <content type="text"><![CDATA[Yoast SEO近期更新了一个版本，修复了7.0版本中会导致一些网站排名下降的一个重大BUG。Yoast的创始人Joost de Valk向收到该BUG影响，导致网站失去排名的站长们发表了个人道歉声明。 Yoast SEO 7.0 Bug上线于2018年3月6号Yoast SEO插件出现BUG的7.0版本上线于2018年3月6号。使用Yoast SEO插件，并且在3月份升级到了7.0 BUG版本的网站，如果出现网站排名下降，那很有可能是受到了该BUG的影响。 Yoast SEO插件到底出了什么BUG呢？原来，Yoast SEO插件升级到7.0版本后，有一项升级改动影响到了图像重定向设置方式。Yoast官方称：所幸这次升级并没有对所有用户造成影响。 Yoast官方对此次问题的声明为： 这是一个低级但是愚蠢的BUG，当Yoast SEO从低版本升级到7.0-7.0.2版后，并没正确覆盖掉旧版本的插件设置。并且由于这次更新是重写了旧版的设定，导致后续也无法对BUG进行回滚覆盖。 Yoast创始人也对此发表了个人道歉声明声明中表示他们很快就发现了该7.0版的BUG，并且快速的发布了修改版。但是自3月6日以来，该错误已经对部分网站的SEO产生了负面影响。因此，Yoast的创始人Joost De Valk个人道歉如下: “This post serves both as a warning and an apology. …We’re so very sorry. …we messed up. I myself, am sorry. More so than normal, because I came up with and coded this change myself…” 受此影响的Yoast SEO用户也抱怨连连一位插件使用者发文表示，由于Yoast SEO插件的BUG，他的网站搜索排名下降。由于这个错误他已经对Yoast SEO插件永远失去了信心。 还有一位插件使用者在Yoast的公告下面发表评论，表示由于Yoast SEO插件的问题，导致她的网站排名下降，并因此损失了数千美元。不过她同时表示，在更新了修复版本后，她的网站排名已经恢复了。 哪些网站会受到此次Yoast SEO插件BUG的影响呢？据Yoast官方声明称，并不是所有用户都会受到影响。但是如果你的网站排名在3月6号之后下降了，最好查看下Yoast SEO插件的媒体设置选项。 如何查看Yoast SEO插件的媒体设置 打开WordPress侧边栏导航； 选择Yoast SEO插件设置； 点击搜索外观选项（Search Appearance）。 在搜索外观设置选项卡中点击媒体（Media） 然后查看媒体设置中“将附件 URL 重定向到附件本身？”选项。根据实际情况有以下4种处理方式： 情况1：一切正常如果媒体设置中“将附件 URL 重定向到附件本身？”选项设置为“是”。那么说明一切正常，你只需要把Yoast SEO插件更新到最新版本就可以了。 情况2：网站排名未受影响如果媒体设置中“将附件 URL 重定向到附件本身？”选项设置为“否”，但是网站排名并未受到影响。那只需要把该设置改为“是”，并把插件更新到最新版本即可。 情况3：网站排名下降如果媒体设置中“将附件 URL 重定向到附件本身？”选项设置为“否”，并且自3月6号后网站排名下降，那就说明网站SEO受到了7.0版bug的影响。 Yoast官方提供的解决办法是将媒体设置中“将附件 URL 重定向到附件本身？”选项设置为“是”，并将插件更新到最新版本。此外，还需要下载Yoast SEO搜索索引清除插件并应用此插件以修复该错误。 情况4：如果你还不确定是否受到BUG影响Yoast官方建议将此设置改为“是”，并将插件更新到最新版本。 相关阅读：Yoast关于此次7.0版BUG的官方公告强烈建议Yoast SEO插件用户阅读此公告，如果受到7.0版BUG影响的用户请采用官方提供的解决方案。同时该公告中还有Google官方人员的相关回复。==[Yoast关于此次7.0版BUG的官方公告]==(https://yoast.com/media-attachment-urls/)]]></content>
+      <categories>
+        <category>SEO</category>
+      </categories>
+      <tags>
+        <tag>WordPress</tag>
+        <tag>Yoast</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[11个可以免费设计企业品牌logo的网站]]></title>
+    <url>%2Fposts%2F23426%2F</url>
+    <content type="text"><![CDATA[相信大家都听说过品牌的重要性。 在企业品牌形象的传播过程中，品牌logo扮演了非常重要的角色。 但是，创业初期或中小企业并没有专业的品牌设计团队，也没有专门的预算来请第三方团队。那怎么能不需要专业的设计能力，并且只需要花几十块（甚至是免费）就能做出一个漂亮的品牌logo呢？ 下面我为大家找到了11个可以免费设计品牌logo的网站。 1.LogomacLogomakr的免费版可以使用数千种图标和上百种字体。有丰富的颜色供选，并且可以自定义各种元素的大小，排序等。 logo创建完成后可以免费保存到自己的电脑中。也可以通过付费选择专业设计辅助后者重新设计。 2.Free Logo Design该平台提供完全免费的图标，字体，颜色和形状等素材。并且有模板可以简化设计过程。 免费版虽然不提供高分辨率下载，但是可以创建多用途大小的低分辨率版。当然也可以付费下载高分辨版的。 3. Logo Type MakerLogo Type Maker 可以免费创建并下载。但是免费下载的是低质量版本，并且自定义项目较少。 4. DesignimoDesignimo 也只提供低质版的免费下载，高质版需要购买。 但是设计过程非常简单，只需要输入品牌名称就能得到一个样本。也可以通过关键词搜索你喜欢的样本，然后进行修改。 5. Logo GardenLogo Garden 也是免费设计，付费下载的平台。 该平台有大量图片，字体和颜色可用。设计完成后只需要付很少的一点费用就可以下载。同时也可以提供全套logo设计服务，例如网站，名片，T恤等周边产品设计。 6. Design Mantic如果你想找一个网站只需要简单几步就能设计一个logo，那么 Desgin Mantic 刚好符合你的要求。 只要挑选适合的字体，分类和颜色，然后输入品牌名称，选择行业就能自动创建logo。 Design Mantic 虽然仍要付费才能下载，但是设计工具是免费使用的。 7. Graphic SpringsGraphic Springs 也是一款免费的logo设计工具。 该平台提供免费滤镜等其他网站没有的功能，不过只能购买下载，购买后的logo可以免费进行修改。 8. Logo MakerLogo Maker 也是采用的设计免费下载收费的模式。 但是该网站提供10000多种可用图标，如果你在其他平台没找到合适的图标，也许可以在这个平台试试看。 9. Free Logo Services该网站有比较完善的设计指导，可以引导你创建并修改。同时设计服务是免费的。而且也可以用这个软件设计名片等。 10. Logo YesLogo Yes 也是设计功能是免费，下载收费指。 然而他们收费相对其他平台低很多，甚至不到1美金就可以下载。但是平台提供的免费设计项目有限，比如可选字体数量等。 11. Flaming TextFlaming Text 提供一部分免费的logo字体设计功能。但是下载需要付费。 个人或教育用户可以免费使用字体，但是部分高级设计功能受限。]]></content>
+      <categories>
+        <category>Tools</category>
+      </categories>
+      <tags>
+        <tag>Free</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Google Adwords要求所有推广账户于2018年10月使用并行追踪]]></title>
+    <url>%2Fposts%2F33860%2F</url>
+    <content type="text"><![CDATA[Google AdWords今年早些时候推出了并行跟踪功能，作为提高移动网站速度的一种方式。现在，谷歌要求截至10月30日，所有Google Adwords推广帐户都需要使用并行跟踪功能。 什么是Google Adwords 并行跟踪并行跟踪通过在页面加载时在后台处理点击测量来提高移动速度。这会使页面加载速度提高几秒。 作为Google加速网络承诺的一部分，开启平行跟踪将成为Google对所有AdWords帐户的要求。Adwords用户可以在帐户级设置页面的“跟踪”选项中开启。此外，不仅为了进一步提高页面速度，Google还推出了几项AdWords更改以提高页面安全性。 从2018年6月11日开始，Google AdWords在知道该网站偏好HTTPS时，会自动将HTTP搜索广告点击重定向到HTTPS。 在接下来的几周内，AdWords将会对使用安全性较低的HTTP地址作为登录网页的广告客户发出提醒。广告客户可以直接将着陆页网址从HTTP更新为HTTPS，无需重置页面数据统计系统。 原文链接Google AdWords Requires All Accounts to Use Parallel Tracking, As of October 2018。]]></content>
+      <categories>
+        <category>SEM</category>
+      </categories>
+      <tags>
+        <tag>Google Adwords</tag>
+      </tags>
+  </entry>
+</search>
