@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>篝火</title>
+  <title>MOYU-摸鱼</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-04T07:20:35.336Z</updated>
+  <updated>2019-01-04T07:39:21.225Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/posts/10507/"/>
     <id>http://yoursite.com/posts/10507/</id>
     <published>2019-01-03T08:12:52.000Z</published>
-    <updated>2019-01-04T07:20:35.336Z</updated>
+    <updated>2019-01-04T07:39:21.225Z</updated>
     
     <content type="html"><![CDATA[<p>最近试着用Vultr的VPS搭建ssr，网上也找了各种教程，安装配置的过程也很顺利，但是配好的ssr仍然无法上网。</p><p>网上的很多教程都说ip能在国内ping通就表示可以用，但我试着新建了好几个主机，ip也都可以ping，就是不能上网。看来并不是ip可以ping的通就表示没被Q了，那怎么检测ip到底能不能用呢，我又找了好久终于找到了一个比较靠谱的测试ip的方法。<br><a id="more"></a></p><ol><li>国内ping测试<br><a href="https://www.ipip.net/ping.php" target="_blank" rel="noopener">测试工具链接</a><br>丢包率高那不用问就是被Q了，直接删除主机重新建一个新IP。<br>如果基本没有丢包，平均响应时间在200毫秒以内都可以接受，接着用下面两步继续检测。<br><img src="https://s2.ax1x.com/2019/01/04/FTMgnP.jpg" alt="国内ping测试"></li><li>国内端口扫描测试<br><a href="http://tool.chinaz.com/port" target="_blank" rel="noopener">测试工具链接</a><br>主要测试22端口，如果22端口测试显示关闭，说明该ip已经被Q，需要重新换ip。如果是开启状态，这说明该ip可用。<br><img src="https://s2.ax1x.com/2019/01/04/FTQEND.jpg" alt="国内端口扫描"></li><li>国外端口扫描测试<br><a href="https://www.yougetsignal.com/tools/open-ports/" target="_blank" rel="noopener">测试工具链接</a><br>如果国内测试22端口是开启状态，国外是close状态，可以检查下服务器的防火墙设置是否关闭了22端口。<br><img src="https://s2.ax1x.com/2019/01/04/FTQe9H.jpg" alt="国外端口扫描"></li></ol><h4 id="ip检测流程总结如下"><a href="#ip检测流程总结如下" class="headerlink" title="ip检测流程总结如下"></a>ip检测流程总结如下</h4><p><img src="https://s2.ax1x.com/2019/01/04/FTmAr8.png" alt="ip端口检测流程"></p>]]></content>
     
@@ -31,6 +31,8 @@
 &lt;p&gt;网上的很多教程都说ip能在国内ping通就表示可以用，但我试着新建了好几个主机，ip也都可以ping，就是不能上网。看来并不是ip可以ping的通就表示没被Q了，那怎么检测ip到底能不能用呢，我又找了好久终于找到了一个比较靠谱的测试ip的方法。&lt;br&gt;
     
     </summary>
+    
+      <category term="Tools" scheme="http://yoursite.com/categories/Tools/"/>
     
     
       <category term="教程" scheme="http://yoursite.com/tags/%E6%95%99%E7%A8%8B/"/>
