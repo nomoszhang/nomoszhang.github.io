@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Vultr主机IP可以ping通但是无法上网怎么办]]></title>
+    <url>%2Fposts%2F10507%2F</url>
+    <content type="text"><![CDATA[最近试着用Vultr的VPS搭建ssr，网上也找了各种教程，安装配置的过程也很顺利，但是配好的ssr仍然无法上网。 网上的很多教程都说ip能在国内ping通就表示可以用，但我试着新建了好几个主机，ip也都可以ping，就是不能上网。看来并不是ip可以ping的通就表示没被Q了，那怎么检测ip到底能不能用呢，我又找了好久终于找到了一个比较靠谱的测试ip的方法。 国内ping测试测试工具链接如果丢包率100%那不用想就是被Q了，直接删除主机重新建一个新IP。如果没有丢包接着用下面两步继续检测。 国内端口扫描测试测试工具链接主要测试22端口，如果22端口测试显示关闭，说明该ip已经被Q。如果开启，这说明该ip可用。 国外端口扫描测试测试工具链接如果国内测试22端口是开启状态，国外是close状态，可以检查下服务器的防火墙设置是否关闭了22端口。 总结就是&lt;%- inline_svg(‘/images/portcheck.svg’) %&gt;]]></content>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Contact Form 7 最新版本如何实现提交表单后跳转到指定页面]]></title>
     <url>%2Fposts%2F6940%2F</url>
     <content type="text"><![CDATA[最近有朋友问我WordPress的表单插件 Contact Form 7 怎么实现提交表单后跳转到指定页面。 经过查找资料我发现之前使用在插件中附加设置中添加 on_send_ok 的方法已经停用了。 Note: The method using on_sent_ok hook is no longer recommended. This function is scheduled to be abolished by the end of 2017. 现在 Contact Form 7 采用 custom DOM event 的方式运行 JavaScript。表单提交后跳转到指定url的脚本如下： 12345&lt;script&gt;document.addEventListener( 'wpcf7mailsent', function( event ) &#123; location = 'http://example.com/';&#125;, false );&lt;/script&gt; 将这段代码添加到 WordPress 主题的template文件中。注意，将http://example.com/替换为你想指定跳转的url。 英语好的可以直接点击下方链接查看官方说明。Redirecting to Another URL After Submissions]]></content>
