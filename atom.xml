@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-04T07:39:21.225Z</updated>
+  <updated>2019-01-14T07:40:38.779Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>谷歌SEO：更改图片网址会影响网站在Google图片搜索中的排名</title>
+    <link href="http://yoursite.com/posts/38259/"/>
+    <id>http://yoursite.com/posts/38259/</id>
+    <published>2019-01-14T07:01:14.000Z</published>
+    <updated>2019-01-14T07:40:38.779Z</updated>
+    
+    <content type="html"><![CDATA[<p>来自Google官方的John Mueller在上周的一次官方问答中提醒各位站长：更改图片网址将会影响网站在Google图片搜索结果中的排名。这点对那些依赖Google图片搜索带来流量的网站及其重要。</p><p>更改了图片链接后，即使是图片内容和图片所在网页不变，Google仍会在搜索排序中将其视为一张新图片。<strong>因为谷歌会对修改过链接的图片重新进行抓取，索引和排名</strong>。并且这一过程可能会耗费较长时间，Mueller提到，因为Google抓取图片的频率远低于抓取网页内容的频率。</p><h2 id="使用重定向降低图片链接修改带来的排名损失"><a href="#使用重定向降低图片链接修改带来的排名损失" class="headerlink" title="使用重定向降低图片链接修改带来的排名损失"></a>使用重定向降低图片链接修改带来的排名损失</h2><p>如果出于某种原因你不得不更改图片url，请使用冲定向功能。<strong>重定向可以将旧图片的排名权重传递到新图片</strong>。所以如果你确定要更改网站图片的url，确保使用重定向功能降低链接修改带来的排名损失。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;来自Google官方的John Mueller在上周的一次官方问答中提醒各位站长：更改图片网址将会影响网站在Google图片搜索结果中的排名。这点对那些依赖Google图片搜索带来流量的网站及其重要。&lt;/p&gt;
+&lt;p&gt;更改了图片链接后，即使是图片内容和图片所在网页不变，Goo
+      
+    
+    </summary>
+    
+      <category term="SEO" scheme="http://yoursite.com/categories/SEO/"/>
+    
+    
+      <category term="Image SEO" scheme="http://yoursite.com/tags/Image-SEO/"/>
+    
+  </entry>
   
   <entry>
     <title>Vultr主机IP可以ping通但是无法上网怎么办</title>
