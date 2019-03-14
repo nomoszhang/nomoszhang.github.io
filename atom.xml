@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-14T07:40:38.779Z</updated>
+  <updated>2019-03-14T09:40:13.668Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,21 +17,42 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>谷歌SEO：更改图片网址会影响网站在Google图片搜索中的排名</title>
-    <link href="http://yoursite.com/posts/38259/"/>
-    <id>http://yoursite.com/posts/38259/</id>
-    <published>2019-01-14T07:01:14.000Z</published>
-    <updated>2019-01-14T07:40:38.779Z</updated>
+    <title>如何将Anaconda中的Python版本由3.7改为3.6</title>
+    <link href="http://yoursite.com/posts/689/"/>
+    <id>http://yoursite.com/posts/689/</id>
+    <published>2019-03-14T09:14:52.000Z</published>
+    <updated>2019-03-14T09:40:13.668Z</updated>
     
-    <content type="html"><![CDATA[<p>来自Google官方的John Mueller在上周的一次官方问答中提醒各位站长：更改图片网址将会影响网站在Google图片搜索结果中的排名。这点对那些依赖Google图片搜索带来流量的网站及其重要。</p><p>更改了图片链接后，即使是图片内容和图片所在网页不变，Google仍会在搜索排序中将其视为一张新图片。<strong>因为谷歌会对修改过链接的图片重新进行抓取，索引和排名</strong>。并且这一过程可能会耗费较长时间，Mueller提到，因为Google抓取图片的频率远低于抓取网页内容的频率。</p><h2 id="使用重定向降低图片链接修改带来的排名损失"><a href="#使用重定向降低图片链接修改带来的排名损失" class="headerlink" title="使用重定向降低图片链接修改带来的排名损失"></a>使用重定向降低图片链接修改带来的排名损失</h2><p>如果出于某种原因你不得不更改图片url，请使用冲定向功能。<strong>重定向可以将旧图片的排名权重传递到新图片</strong>。所以如果你确定要更改网站图片的url，确保使用重定向功能降低链接修改带来的排名损失。</p>]]></content>
+    <content type="html"><![CDATA[<p>Anaconda最新版本的Python环境是3.7，但是最近看了个教程需要在3.6版本下运行。网上搜了下解决方案，有说安装两个Anaconda的，但是我并没有找到Python3.6版的Anaconda怎么装。后来发现一个更简单的解决方案，直接在新版Anaconda中安装一个3.6版的Python。<br>具体过程如下：</p><ol><li>打开Anaconda Navigator，新建一个环境；</li><li>指定新环境的Python版本为3.6；<br><img src="https://imgchr.com/i/AAyhAf" alt="指定Python版本为3.6"></li><li>运行Open Terminal即可进入Python3.6环境。<br><img src="https://imgchr.com/i/AAyHjs" alt="运行Open Terminal"></li></ol>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;来自Google官方的John Mueller在上周的一次官方问答中提醒各位站长：更改图片网址将会影响网站在Google图片搜索结果中的排名。这点对那些依赖Google图片搜索带来流量的网站及其重要。&lt;/p&gt;
-&lt;p&gt;更改了图片链接后，即使是图片内容和图片所在网页不变，Goo
+        &lt;p&gt;Anaconda最新版本的Python环境是3.7，但是最近看了个教程需要在3.6版本下运行。网上搜了下解决方案，有说安装两个Anaconda的，但是我并没有找到Python3.6版的Anaconda怎么装。后来发现一个更简单的解决方案，直接在新版Anaconda中安装一个
       
+    
+    </summary>
+    
+    
+      <category term="Anaconda" scheme="http://yoursite.com/tags/Anaconda/"/>
+    
+      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>谷歌SEO：更改图片网址会影响网站在Google图片搜索中的排名</title>
+    <link href="http://yoursite.com/posts/38259/"/>
+    <id>http://yoursite.com/posts/38259/</id>
+    <published>2019-01-14T07:01:14.000Z</published>
+    <updated>2019-01-14T07:42:23.112Z</updated>
+    
+    <content type="html"><![CDATA[<p>来自Google官方的John Mueller在上周的一次官方问答中提醒各位站长：更改图片网址将会影响网站在Google图片搜索结果中的排名。这点对那些依赖Google图片搜索带来流量的网站及其重要。</p><a id="more"></a><p>更改了图片链接后，即使是图片内容和图片所在网页不变，Google仍会在搜索排序中将其视为一张新图片。<strong>因为谷歌会对修改过链接的图片重新进行抓取，索引和排名</strong>。并且这一过程可能会耗费较长时间，Mueller提到，因为Google抓取图片的频率远低于抓取网页内容的频率。</p><h2 id="使用重定向降低图片链接修改带来的排名损失"><a href="#使用重定向降低图片链接修改带来的排名损失" class="headerlink" title="使用重定向降低图片链接修改带来的排名损失"></a>使用重定向降低图片链接修改带来的排名损失</h2><p>如果出于某种原因你不得不更改图片url，请使用冲定向功能。<strong>重定向可以将旧图片的排名权重传递到新图片</strong>。所以如果你确定要更改网站图片的url，确保使用重定向功能降低链接修改带来的排名损失。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;来自Google官方的John Mueller在上周的一次官方问答中提醒各位站长：更改图片网址将会影响网站在Google图片搜索结果中的排名。这点对那些依赖Google图片搜索带来流量的网站及其重要。&lt;/p&gt;
     
     </summary>
     

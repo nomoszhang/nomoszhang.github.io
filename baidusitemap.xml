@@ -4,8 +4,27 @@
 
     
   <url>
+    <loc>http://yoursite.com/posts/689/</loc>
+    <lastmod>2019-03-14T09:40:13.668Z</lastmod>
+    <data>
+        <display>
+        <title>如何将Anaconda中的Python版本由3.7改为3.6</title>
+        <pubTime>2019-03-14T09:14:52.000Z</pubTime>
+        
+        <tag>Anaconda</tag>
+         
+        <tag>Python</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/posts/38259/</loc>
-    <lastmod>2019-01-14T07:40:38.779Z</lastmod>
+    <lastmod>2019-01-14T07:42:23.112Z</lastmod>
     <data>
         <display>
         <title>谷歌SEO：更改图片网址会影响网站在Google图片搜索中的排名</title>
