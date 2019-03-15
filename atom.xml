@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-15T01:02:44.247Z</updated>
+  <updated>2019-03-15T06:43:49.885Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Google analytics直接流量数据异常情况原因总结</title>
+    <link href="http://yoursite.com/posts/33238/"/>
+    <id>http://yoursite.com/posts/33238/</id>
+    <published>2019-03-15T05:38:33.000Z</published>
+    <updated>2019-03-15T06:43:49.885Z</updated>
+    
+    <content type="html"><![CDATA[<p>通常我们都认为Google analytics（下文称GA）中的直接流量（Direct Traffic）是用户直接输入网址访问的流量，但事实上呢，大部分用户并不会特意去记忆你网址。比如我本人日常中会直接输网址访问的最多是baidu.com和google.com，在我周围通过百度搜索淘宝来登录淘宝网站的也大有人在。连顶级品牌都这样，所以GA中的直接流量真的是你想象中的直接访问吗？<br><a id="more"></a><br>实际上，<strong>GA中的直接流量包含三个部分：</strong></p><ol><li>直接访问</li><li>网站的引荐数据丢失</li><li>未被标记的广告流量</li></ol><p>也就是说抛开直接输入网址的那一部分用户，还有以下几种情况访问网站也会被GA定义为直接访问：</p><ol><li><strong>App</strong> - App内分享或激活的链接会被归为直接访问；</li><li><strong>短信/聊天框</strong> - 通过短信或聊天框发送的链接会被认为是直接访问；</li><li><strong>社交媒体</strong> - 不同社交平台的链接机制不同，比如Facebook的即时发送文章属于App内形式，也会被归为直接访问；</li><li><strong>邮件客户端</strong> - 通过邮件客户端，比如Outlook，点击邮件内链接（包括邮件正文和签名）访问的流量会被认为是直接访问；</li><li><strong>浏览器的匿名浏览</strong> - 一些浏览器的匿名模式，会掩盖掉引荐数据；</li><li><strong>机器人</strong> - 比如各种爬虫；</li><li><strong>HTTPS to HTTP</strong> - 当用户从SSL加密的域名引荐到非加密域名时，引荐数据会丢失，所以也会GA识别为直接访问。</li><li><strong>非网页文件访问</strong> - 来自PDF，Word，Excel等文件访问；</li><li><strong>未被标记的广告流量。</strong></li></ol><p><em>拓展阅读：</em><br><a href="http://webris.org/direct-traffic/" target="_blank" rel="noopener">Analyzing Direct Traffic: WTF Is It?! Why Do I Have It?</a><br><a href="https://www.advancedwebranking.com/blog/when-direct-traffic-is-dark-traffic/" target="_blank" rel="noopener">Misbehaving Data: When Direct Traffic Isn’t Direct Traffic</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;通常我们都认为Google analytics（下文称GA）中的直接流量（Direct Traffic）是用户直接输入网址访问的流量，但事实上呢，大部分用户并不会特意去记忆你网址。比如我本人日常中会直接输网址访问的最多是baidu.com和google.com，在我周围通过百度搜索淘宝来登录淘宝网站的也大有人在。连顶级品牌都这样，所以GA中的直接流量真的是你想象中的直接访问吗？&lt;br&gt;
+    
+    </summary>
+    
+      <category term="SEO" scheme="http://yoursite.com/categories/SEO/"/>
+    
+    
+      <category term="Google analytics" scheme="http://yoursite.com/tags/Google-analytics/"/>
+    
+  </entry>
   
   <entry>
     <title>如何将Anaconda中的Python版本由3.7改为3.6</title>
