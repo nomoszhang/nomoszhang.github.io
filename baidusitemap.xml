@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://yoursite.com/posts/689/</loc>
-    <lastmod>2019-03-14T09:40:13.668Z</lastmod>
+    <lastmod>2019-03-15T01:02:44.247Z</lastmod>
     <data>
         <display>
         <title>如何将Anaconda中的Python版本由3.7改为3.6</title>
@@ -17,6 +17,9 @@
          
          
            
+             
+              <breadCrumb title="Tools" url="http://yoursite.com/categories/Tools/"/>
+          
         </display>
     </data>
     </url>

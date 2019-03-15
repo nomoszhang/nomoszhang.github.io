@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-14T09:40:13.668Z</updated>
+  <updated>2019-03-15T01:02:44.247Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/posts/689/"/>
     <id>http://yoursite.com/posts/689/</id>
     <published>2019-03-14T09:14:52.000Z</published>
-    <updated>2019-03-14T09:40:13.668Z</updated>
+    <updated>2019-03-15T01:02:44.247Z</updated>
     
-    <content type="html"><![CDATA[<p>Anaconda最新版本的Python环境是3.7，但是最近看了个教程需要在3.6版本下运行。网上搜了下解决方案，有说安装两个Anaconda的，但是我并没有找到Python3.6版的Anaconda怎么装。后来发现一个更简单的解决方案，直接在新版Anaconda中安装一个3.6版的Python。<br>具体过程如下：</p><ol><li>打开Anaconda Navigator，新建一个环境；</li><li>指定新环境的Python版本为3.6；<br><img src="https://imgchr.com/i/AAyhAf" alt="指定Python版本为3.6"></li><li>运行Open Terminal即可进入Python3.6环境。<br><img src="https://imgchr.com/i/AAyHjs" alt="运行Open Terminal"></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>Anaconda最新版本的Python环境是3.7，但是最近看了个教程需要在3.6版本下运行。网上搜了下解决方案，有说安装两个Anaconda的，但是我并没有找到Python3.6版的Anaconda怎么装。后来发现一个更简单的解决方案，直接在新版Anaconda中安装一个3.6版的Python。<br>具体过程如下：</p><ol><li>打开Anaconda Navigator，新建一个环境；</li><li>指定新环境的Python版本为3.6；<br><img src="https://s2.ax1x.com/2019/03/14/AAyhAf.jpg" alt="指定Python版本为3.6"></li><li>运行Open Terminal即可进入Python3.6环境。<br><img src="https://s2.ax1x.com/2019/03/14/AAyHjs.jpg" alt="运行Open Terminal"></li></ol>]]></content>
     
     <summary type="html">
     
@@ -33,6 +33,8 @@
       
     
     </summary>
+    
+      <category term="Tools" scheme="http://yoursite.com/categories/Tools/"/>
     
     
       <category term="Anaconda" scheme="http://yoursite.com/tags/Anaconda/"/>

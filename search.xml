@@ -4,6 +4,9 @@
     <title><![CDATA[如何将Anaconda中的Python版本由3.7改为3.6]]></title>
     <url>%2Fposts%2F689%2F</url>
     <content type="text"><![CDATA[Anaconda最新版本的Python环境是3.7，但是最近看了个教程需要在3.6版本下运行。网上搜了下解决方案，有说安装两个Anaconda的，但是我并没有找到Python3.6版的Anaconda怎么装。后来发现一个更简单的解决方案，直接在新版Anaconda中安装一个3.6版的Python。具体过程如下： 打开Anaconda Navigator，新建一个环境； 指定新环境的Python版本为3.6； 运行Open Terminal即可进入Python3.6环境。]]></content>
+      <categories>
+        <category>Tools</category>
+      </categories>
       <tags>
         <tag>Anaconda</tag>
         <tag>Python</tag>
