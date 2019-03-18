@@ -4,8 +4,28 @@
 
     
   <url>
+    <loc>http://yoursite.com/posts/4171/</loc>
+    <lastmod>2019-03-18T05:17:45.785Z</lastmod>
+    <data>
+        <display>
+        <title>读后记——如何通过分析日志文件发现并解决网站SEO问题</title>
+        <pubTime>2019-03-18T03:33:58.000Z</pubTime>
+        
+        <tag>Log analysis</tag>
+         
+         
+           
+             
+              <breadCrumb title="SEO" url="http://yoursite.com/categories/SEO/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/posts/33238/</loc>
-    <lastmod>2019-03-15T06:43:49.885Z</lastmod>
+    <lastmod>2019-03-15T06:44:47.043Z</lastmod>
     <data>
         <display>
         <title>Google analytics直接流量数据异常情况原因总结</title>
