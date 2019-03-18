@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-18T05:17:45.785Z</updated>
+  <updated>2019-03-18T05:18:13.642Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/posts/4171/"/>
     <id>http://yoursite.com/posts/4171/</id>
     <published>2019-03-18T03:33:58.000Z</published>
-    <updated>2019-03-18T05:17:45.785Z</updated>
+    <updated>2019-03-18T05:18:13.642Z</updated>
     
     <content type="html"><![CDATA[<p>最近读到一篇文章，作者详细描述了他如何通过分析网站日志文件，发现并解决一个百万级页面的网站自然流量暴跌且难以恢复的问题。</p><p>看完给我的收获有以下几点：</p><ol><li>SEO工具<ul><li>日志分析工具——<a href="https://www.screamingfrog.co.uk/log-file-analyser/" target="_blank" rel="noopener">Screaming Frog Log File Analyser</a></li><li>日志文件压缩工具——<a href="https://cmder.net/" target="_blank" rel="noopener">cmder.net</a></li></ul></li><li>搜索引擎爬虫陷入网站URL陷阱中的解决方案<ul><li>使用robots.txt或meat robots规范爬虫行为。通常不会很凑效。</li><li>调整url规则。Google会忽略URL中#号后的内容，所以将你不想让Google爬取的内容放在#后面。</li></ul></li></ol><p><em>附上文章链接：</em><br><a href="https://www.portent.com/blog/seo/seo-log-file-analysis.htm" target="_blank" rel="noopener">Log File Analysis For SEO</a></p>]]></content>
     
