@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[一个有趣的实验：橙底黑字和橙底白字按钮的无障碍易用性对比]]></title>
+    <url>%2Fposts%2F49753%2F</url>
+    <content type="text"><![CDATA[无论是网站和App中，按钮都是最常用的元素之一。突出按钮颜色以增强按钮易用性基本上已经是常识，但是少有人研究按钮背景和文字颜色对比度不同具体对按钮的用户体验有什么影响，特别是对于色弱、色盲等群体的无障碍使用体验。这次介绍的文章就针对橙色背景按钮中黑色和白色字体哪个无障碍使用体验更好进行了研究。研究结果表明，多数色盲，色弱人群认为橙色背景白色字体的按钮更具有易读性。 也许这个结论可以帮助我们改进自己的网站和App内按钮的用户体验设计。 具体研究过程和数据可参考来源文章：Orange You Accessible? A Mini Case Study on Color Ratio]]></content>
+      <tags>
+        <tag>Design</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[读后记——如何通过分析日志文件发现并解决网站SEO问题]]></title>
     <url>%2Fposts%2F4171%2F</url>
     <content type="text"><![CDATA[最近读到一篇文章，作者详细描述了他如何通过分析网站日志文件，发现并解决一个百万级页面的网站自然流量暴跌且难以恢复的问题。 看完给我的收获有以下几点： SEO工具 日志分析工具——Screaming Frog Log File Analyser 日志文件压缩工具——cmder.net 搜索引擎爬虫陷入网站URL陷阱中的解决方案 使用robots.txt或meat robots规范爬虫行为。通常不会很凑效。 调整url规则。Google会忽略URL中#号后的内容，所以将你不想让Google爬取的内容放在#后面。 附上文章链接：Log File Analysis For SEO]]></content>

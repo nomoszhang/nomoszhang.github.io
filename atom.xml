@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-18T05:18:13.642Z</updated>
+  <updated>2019-03-25T02:50:42.155Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一个有趣的实验：橙底黑字和橙底白字按钮的无障碍易用性对比</title>
+    <link href="http://yoursite.com/posts/49753/"/>
+    <id>http://yoursite.com/posts/49753/</id>
+    <published>2019-03-25T02:34:45.000Z</published>
+    <updated>2019-03-25T02:50:42.155Z</updated>
+    
+    <content type="html"><![CDATA[<p>无论是网站和App中，按钮都是最常用的元素之一。突出按钮颜色以增强按钮易用性基本上已经是常识，但是少有人研究按钮背景和文字颜色对比度不同具体对按钮的用户体验有什么影响，特别是对于色弱、色盲等群体的无障碍使用体验。<br><a id="more"></a><br><img src="https://www.bounteous.com/sites/default/files/buttons-example-1-example-2_0.png" alt="Can you guess which button is more accessible?"><br>这次介绍的文章就针对橙色背景按钮中黑色和白色字体哪个无障碍使用体验更好进行了研究。研究结果表明，多数色盲，色弱人群认为<strong>橙色背景白色字体的按钮更具有易读性</strong>。</p><p>也许这个结论可以帮助我们改进自己的网站和App内按钮的用户体验设计。</p><p><em>具体研究过程和数据可参考来源文章：</em><br><a href="https://www.bounteous.com/insights/2019/03/22/orange-you-accessible-mini-case-study-color-ratio/" target="_blank" rel="noopener">Orange You Accessible? A Mini Case Study on Color Ratio</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;无论是网站和App中，按钮都是最常用的元素之一。突出按钮颜色以增强按钮易用性基本上已经是常识，但是少有人研究按钮背景和文字颜色对比度不同具体对按钮的用户体验有什么影响，特别是对于色弱、色盲等群体的无障碍使用体验。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Design" scheme="http://yoursite.com/tags/Design/"/>
+    
+  </entry>
   
   <entry>
     <title>读后记——如何通过分析日志文件发现并解决网站SEO问题</title>
