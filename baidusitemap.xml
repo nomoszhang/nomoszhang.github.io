@@ -4,14 +4,16 @@
 
     
   <url>
-    <loc>http://yoursite.com/posts/36463/</loc>
-    <lastmod>2019-04-02T08:14:56.596Z</lastmod>
+    <loc>http://yoursite.com/posts/20210/</loc>
+    <lastmod>2019-04-03T08:56:05.209Z</lastmod>
     <data>
         <display>
-        <title>分析最近几个月的Facebook广告投放数据</title>
-        <pubTime>2019-04-02T08:10:07.000Z</pubTime>
+        <title>B2B业务应该如何选择Facebook广告策略</title>
+        <pubTime>2019-03-26T09:24:10.000Z</pubTime>
         
         <tag>Facebook Ads</tag>
+         
+        <tag>B2B</tag>
          
          
            
@@ -24,12 +26,54 @@
 
     
   <url>
-    <loc>http://yoursite.com/posts/20210/</loc>
-    <lastmod>2019-03-28T03:14:42.613Z</lastmod>
+    <loc>http://yoursite.com/posts/23325/</loc>
+    <lastmod>2019-04-03T08:52:46.480Z</lastmod>
     <data>
         <display>
-        <title>B2B业务应该如何选择Facebook广告策略</title>
-        <pubTime>2019-03-26T09:24:10.000Z</pubTime>
+        <title>案例研究——电商类Facebook广告的投放策略</title>
+        <pubTime>2019-04-02T08:32:21.000Z</pubTime>
+        
+        <tag>Facebook Ads</tag>
+         
+        <tag>E-commerce</tag>
+         
+         
+           
+             
+              <breadCrumb title="SEM" url="http://yoursite.com/categories/SEM/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/33238/</loc>
+    <lastmod>2019-04-02T08:27:06.272Z</lastmod>
+    <data>
+        <display>
+        <title>Google analytics直接流量数据异常情况原因总结</title>
+        <pubTime>2019-03-15T05:38:33.000Z</pubTime>
+        
+        <tag>Google analytics</tag>
+         
+         
+           
+             
+              <breadCrumb title="SEO" url="http://yoursite.com/categories/SEO/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/36463/</loc>
+    <lastmod>2019-04-02T08:15:46.572Z</lastmod>
+    <data>
+        <display>
+        <title>分析最近几个月的Facebook广告投放数据</title>
+        <pubTime>2019-04-02T08:10:07.000Z</pubTime>
         
         <tag>Facebook Ads</tag>
          
@@ -149,26 +193,6 @@
         <pubTime>2019-03-18T03:33:58.000Z</pubTime>
         
         <tag>Log analysis</tag>
-         
-         
-           
-             
-              <breadCrumb title="SEO" url="http://yoursite.com/categories/SEO/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/posts/33238/</loc>
-    <lastmod>2019-03-15T06:44:47.043Z</lastmod>
-    <data>
-        <display>
-        <title>Google analytics直接流量数据异常情况原因总结</title>
-        <pubTime>2019-03-15T05:38:33.000Z</pubTime>
-        
-        <tag>Google analytics</tag>
          
          
            
