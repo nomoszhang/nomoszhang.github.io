@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-04T02:18:47.512Z</updated>
+  <updated>2019-04-13T06:08:35.237Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>6个好用的Google Tag Manager代码集成下载</title>
+    <link href="http://yoursite.com/posts/25196/"/>
+    <id>http://yoursite.com/posts/25196/</id>
+    <published>2019-04-13T03:22:39.000Z</published>
+    <updated>2019-04-13T06:08:35.237Z</updated>
+    
+    <content type="html"><![CDATA[<p>Google跟踪代码管理器（GTM）容器是GTM账户中的一组宏，规则和代码。容器可以从一个账户导入到另一个账户。我从外网找了几个好用的GTM容器，可以直接下载导入到自己的GTM账户使用。</p><h2 id="如何导入GTM容器"><a href="#如何导入GTM容器" class="headerlink" title="如何导入GTM容器"></a>如何导入GTM容器</h2><p>下载GTM容器后，请按照以下步骤导入：</p><ol><li>在GTM顶部导航中点击<strong>管理</strong>。<br><img src="https://s2.ax1x.com/2019/04/13/ALuYhq.png" alt="google tag manager"></li><li>在容器部分下，点击<strong>导入容器</strong>。</li><li>点击<strong>选择容器文件</strong>，选择需要导入的文件。</li><li>将文件导入到现存工作区，需要执行以下操作<ul><li>选择工作空间&gt;现有工作空间&gt;选择需要导入的工作空间</li><li>导入方式选择<strong>合并</strong><br><img src="https://s2.ax1x.com/2019/04/13/ALuN90.png" alt="导入GTM容器"></li></ul></li><li>进入你的GTM工作区，在用户变量下找到UA-XXXXXXXX-X，将其修改为你自己的UID。<br><img src="https://s2.ax1x.com/2019/04/13/ALuacT.png" alt="修改UID"><br>或到GTM官方帮助中心查看教程：<br><a href="https://support.google.com/tagmanager/answer/6106997" target="_blank" rel="noopener">GTM容器导出和导入</a><a id="more"></a></li></ol><h2 id="GTM容器下载"><a href="#GTM容器下载" class="headerlink" title="GTM容器下载"></a>GTM容器下载</h2><h3 id="在GA中跟踪页面浏览"><a href="#在GA中跟踪页面浏览" class="headerlink" title="在GA中跟踪页面浏览"></a>在GA中跟踪页面浏览</h3><p>通过此脚本可以用GTM代替GA的跟踪代码。下载导入后需要根据上述第5步将UID改成自己的即可。<br><a href="https://drive.google.com/open?id=16ohjkJ5PUCZxpLGoUPfiV7AJkpTdwtfv" target="_blank" rel="noopener">脚本下载</a></p><h3 id="在GA中跟踪链接点击"><a href="#在GA中跟踪链接点击" class="headerlink" title="在GA中跟踪链接点击"></a>在GA中跟踪链接点击</h3><p>此脚本可以将自己网站上的联系信息链接点击添加到GA作为事件跟踪。如果网站访客点击网页上的“tel:”或“mailto:”链接，GA就会记录一次事件。你可以在GA的事件报告中查到相关操作和数据。<br><a href="https://drive.google.com/open?id=12SvWrl88UpDaZlCfY_q30cNUO0js4Aam" target="_blank" rel="noopener">脚本下载</a></p><h3 id="跨域跟踪"><a href="#跨域跟踪" class="headerlink" title="跨域跟踪"></a>跨域跟踪</h3><p>跨越跟踪可以实现在一个GA视图中分析多个网站的流量。如果需要实现跨域跟踪，可以下载此脚本，并按照这个教程分步实施——<a href="https://www.directom.com/cross-domain-tracking-google-tag-manager/" target="_blank" rel="noopener">set up cross-domain tracking with Google tag manager in 7 easy steps.</a><br><a href="https://drive.google.com/open?id=1gG40Cr5AZ8LZHkEKA73nzp1dycgqqHhZ" target="_blank" rel="noopener">脚本下载</a></p><h3 id="清除GTM容器"><a href="#清除GTM容器" class="headerlink" title="清除GTM容器"></a>清除GTM容器</h3><p>此脚本一般用于网站测试新功能。可以实现清除所有的代码，触发器，变量和文件夹。导入此脚本时记得选择<strong>覆盖</strong>模式。<br><a href="https://drive.google.com/open?id=1sFnyzwDU5dx_wlcm5d3CtZ1OPWQSNlrK" target="_blank" rel="noopener">脚本下载</a></p><h3 id="在GA中跟踪复制内容"><a href="#在GA中跟踪复制内容" class="headerlink" title="在GA中跟踪复制内容"></a>在GA中跟踪复制内容</h3><p>想知道用户在你的网页上复制了哪些文字吗？导入此脚本，每次访客将网页上的文本复制进剪贴板时，都会将事件发送到GA。</p><p>效果图如下：<br><img src="https://s2.ax1x.com/2019/04/13/ALuU3V.png" alt="GA复制粘贴事件"><br>而且已经将复制的文本设置为了事件标签，因此可以在GA中看到具体的复制文本。<br><a href="https://drive.google.com/open?id=1UbT3VhTv_kv5TH5TivYaHykwHwNB_8YS" target="_blank" rel="noopener">脚本下载</a></p><h3 id="给复制内容增加引用链接"><a href="#给复制内容增加引用链接" class="headerlink" title="给复制内容增加引用链接"></a>给复制内容增加引用链接</h3><p>遇到过复制粘贴的文本带有网站引用链接的情况吗？此脚本可以在你自己的网站上实现这个功能。注意，此脚本添加的文案“Read more at…”可以自行修改。<br><a href="https://drive.google.com/open?id=1RDazDH4Wtca9M_Ck9vU3x5LH3kYnchxJ" target="_blank" rel="noopener">脚本下载</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Google跟踪代码管理器（GTM）容器是GTM账户中的一组宏，规则和代码。容器可以从一个账户导入到另一个账户。我从外网找了几个好用的GTM容器，可以直接下载导入到自己的GTM账户使用。&lt;/p&gt;
+&lt;h2 id=&quot;如何导入GTM容器&quot;&gt;&lt;a href=&quot;#如何导入GTM容器&quot; class=&quot;headerlink&quot; title=&quot;如何导入GTM容器&quot;&gt;&lt;/a&gt;如何导入GTM容器&lt;/h2&gt;&lt;p&gt;下载GTM容器后，请按照以下步骤导入：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在GTM顶部导航中点击&lt;strong&gt;管理&lt;/strong&gt;。&lt;br&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/04/13/ALuYhq.png&quot; alt=&quot;google tag manager&quot;&gt;&lt;/li&gt;
+&lt;li&gt;在容器部分下，点击&lt;strong&gt;导入容器&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;点击&lt;strong&gt;选择容器文件&lt;/strong&gt;，选择需要导入的文件。&lt;/li&gt;
+&lt;li&gt;将文件导入到现存工作区，需要执行以下操作&lt;ul&gt;
+&lt;li&gt;选择工作空间&amp;gt;现有工作空间&amp;gt;选择需要导入的工作空间&lt;/li&gt;
+&lt;li&gt;导入方式选择&lt;strong&gt;合并&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/04/13/ALuN90.png&quot; alt=&quot;导入GTM容器&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;进入你的GTM工作区，在用户变量下找到UA-XXXXXXXX-X，将其修改为你自己的UID。&lt;br&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/04/13/ALuacT.png&quot; alt=&quot;修改UID&quot;&gt;&lt;br&gt;或到GTM官方帮助中心查看教程：&lt;br&gt;&lt;a href=&quot;https://support.google.com/tagmanager/answer/6106997&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GTM容器导出和导入&lt;/a&gt;
+    
+    </summary>
+    
+      <category term="Tool" scheme="http://yoursite.com/categories/Tool/"/>
+    
+    
+      <category term="GTM" scheme="http://yoursite.com/tags/GTM/"/>
+    
+      <category term="Google Tag Manager" scheme="http://yoursite.com/tags/Google-Tag-Manager/"/>
+    
+  </entry>
   
   <entry>
     <title>案例研究——电商类Facebook广告的投放策略</title>
